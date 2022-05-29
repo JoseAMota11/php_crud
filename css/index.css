@@ -41,7 +41,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  border: #ddd solid 2px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .form {
@@ -94,7 +94,7 @@ button[name=save] {
 .deleted {
   width: 350px;
   height: 60px;
-  background-color: #FAACAC;
+  background-color: #FFC6C6;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -104,8 +104,7 @@ button[name=save] {
 }
 
 .icon-delete {
-  width: 18px;
-  height: 18px;
+  font-size: 24px;
   cursor: pointer;
 }
 
@@ -118,9 +117,8 @@ button[name=save] {
   margin-left: 30px;
   padding: 0 15px;
   height: 60px;
-  border: #ddd solid 2px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
-  margin-bottom: 15px;
 }
 
 .table {
@@ -146,7 +144,7 @@ button[name=save] {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .grid__result a {
@@ -154,8 +152,7 @@ button[name=save] {
 }
 
 .icon-edit {
-  width: 18px;
-  height: 18px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -185,7 +182,7 @@ button[name=update] {
 .updated {
   width: 350px;
   height: 60px;
-  background-color: #F0ED90;
+  background-color: #FFF8C4 ;
   display: flex;
   align-items: center;
   justify-content: space-between;

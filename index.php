@@ -19,6 +19,9 @@
         })
         divAlert.append(p, icon)
         container.prepend(divAlert)
+        setTimeout(() => {
+          divAlert.remove()
+        }, 3000)
       </script>
     <?php session_unset(); } ?>
     <div class="form__container">
